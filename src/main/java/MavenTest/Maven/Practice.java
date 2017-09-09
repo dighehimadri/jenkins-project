@@ -13,7 +13,7 @@ public class Practice {
 			driver.findElementByCssSelector("name").sendKeys("himadri");
 			driver.findElementByCssSelector("email").sendKeys("aswasv5@gmail.com");
 			
-
-	}
+System.out.println("himadri");
+ 	}
 
 }
