@@ -29,7 +29,7 @@ public class Tracko {
 		driver.findElement(By.id("otp")).sendKeys("123456");
 		driver.findElement(By.id("sub_btn_verify")).click();
 		driver.findElement(By.xpath("//button[@id='sub_btn'][@type='submit']")).click();
-		//driver.findElement(By.cssSelector("button[id='sub_btn'][type='submit']")).click();
+		driver.findElement(By.cssSelector("button[id='sub_btn'][type='submit']")).click();
 		Thread.sleep(5000);
 		driver.findElement(By.id("password")).sendKeys("testing12");
 		driver.findElement(By.id("repassword")).sendKeys("testing12");

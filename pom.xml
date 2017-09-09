@@ -56,7 +56,7 @@
 				<configuration>
 					<suiteXmlFiles>
 						<!-- TestNG suite XML files -->
-						<suiteXmlFile>Tracko.xml</suiteXmlFile>
+						<suiteXmlFile>test.xml</suiteXmlFile>
 					</suiteXmlFiles>
 				</configuration>
 			</plugin>
