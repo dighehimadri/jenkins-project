@@ -21,8 +21,8 @@ public class Tracko {
 		ChromeDriver driver = new ChromeDriver();
 		driver.get("https://dev.tracko.co.in/trackoweb/signup.html");
 		driver.findElement(By.id("name")).sendKeys("himadri");
-		driver.findElement(By.id("email")).sendKeys("himtech28@gmail.com");
-		driver.findElement(By.id("mobile")).sendKeys("93279088118");
+		driver.findElement(By.id("email")).sendKeys("himtech2@gmail.com");
+		driver.findElement(By.id("mobile")).sendKeys("9812607989");
 		driver.findElement(By.id("sub_btn_signup")).click();
 		
 		Thread.sleep(5000);
